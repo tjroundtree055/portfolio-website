@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tyrone Roundtree Jr. — Cybersecurity &amp; IT</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a href="#top" class="mark">TR<span class="mark-dot">.</span></a>
+    <nav class="site-nav" id="site-nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero wrap">
+    <div class="hero-text">
+      <h1>Tyrone Roundtree Jr.</h1>
+      <p class="hero-role">Cybersecurity &amp; Information Technology</p>
+      <p class="hero-copy">
+        Third-year Computer Science student at the University of
+        Louisville, building network and security tools from the
+        socket layer up. Currently working full time at UPS Worldport
+        while studying toward AWS Cloud Practitioner.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="mailto:tjroundtree05@gmail.com">Email me</a>
+        <a class="btn btn-ghost" href="https://github.com/tjroundtree055" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p class="hero-location">Louisville, KY</p>
+    </div>
+
+    <div class="hero-terminal" aria-hidden="false">
+      <div class="term-bar">
+        <span class="term-dot dot-red"></span>
+        <span class="term-dot dot-amber"></span>
+        <span class="term-dot dot-teal"></span>
+        <span class="term-title">scanner.py</span>
+      </div>
+      <pre class="term-body" id="term-body" aria-label="Sample output from the cybersecurity dashboard scanner"></pre>
+    </div>
+  </section>
+
+  <section id="about" class="section wrap-narrow">
+    <h2 class="section-num">About</h2>
+    <p>
+      I transferred into the University of Louisville's Computer
+      Science program with a set of general education credits already
+      finished, and I'm on track to graduate in fall 2027. Most days
+      start on the ramp at UPS Worldport, loading aircraft on a fixed
+      schedule &mdash; then coursework and independent projects fill
+      the rest.
+    </p>
+    <p>
+      That split has shaped how I build: everything I ship gets
+      tested against normal, invalid, and edge cases before I call it
+      done, because the job doesn't leave room to half-check things
+      and hope. I'm aiming toward cybersecurity and cloud
+      infrastructure, and I'm a member of the Speed School Association
+      for Computing Machinery.
+    </p>
+  </section>
+
+  <section id="skills" class="section wrap">
+    <h2 class="section-num">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <ul>
+          <li>Python</li>
+          <li>C</li>
+          <li>C++</li>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Security &amp; Systems</h3>
+        <ul>
+          <li>Linux</li>
+          <li>TCP/IP fundamentals</li>
+          <li>Port scanning</li>
+          <li>Service identification</li>
+          <li>Risk classification</li>
+          <li>Command line</li>
+        </ul>
+      </div>
+      <div class="skill-group">
+        <h3>Tools</h3>
+        <ul>
+          <li>Git &amp; GitHub</li>
+          <li>VS Code</li>
+          <li>Chrome DevTools</li>
+          <li>JSON</li>
+          <li>MySQL Workbench</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section wrap">
+    <h2 class="section-num">Projects</h2>
+
+    <article class="project">
+      <div class="term-bar">
+        <span class="term-dot dot-red"></span>
+        <span class="term-dot dot-amber"></span>
+        <span class="term-dot dot-teal"></span>
+        <span class="term-title">cyber_dashboard.py &mdash; September 2026</span>
+      </div>
+      <div class="project-body">
+        <h3>Personal Cybersecurity Dashboard</h3>
+        <p>
+          A Python tool that scans authorized targets for open ports
+          and maps what it finds to commonly associated network
+          services. Findings get a rule-based low, medium, or high
+          risk label and are stored for later review. Scanning,
+          service identification, risk analysis, storage, and
+          reporting are separated into modular components so each
+          piece can be tested and debugged on its own.
+        </p>
+        <ul class="tags">
+          <li>Python</li>
+          <li>Raw sockets</li>
+          <li>Flask</li>
+          <li>Risk modeling</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="term-bar">
+        <span class="term-dot dot-red"></span>
+        <span class="term-dot dot-amber"></span>
+        <span class="term-dot dot-teal"></span>
+        <span class="term-title">manifest.json &mdash; August 2026</span>
+      </div>
+      <div class="project-body">
+        <h3>YouTube Bookmark &amp; Annotation Extension</h3>
+        <p>
+          A Chrome Manifest V3 extension for saving YouTube timestamps
+          and attaching notes for faster review later. Built with
+          Chrome APIs for user interaction and persistent bookmark
+          storage, and packaged for installation and testing as an
+          unpacked extension.
+        </p>
+        <ul class="tags">
+          <li>JavaScript</li>
+          <li>Chrome APIs</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="project">
+      <div class="term-bar">
+        <span class="term-dot dot-red"></span>
+        <span class="term-dot dot-amber"></span>
+        <span class="term-dot dot-teal"></span>
+        <span class="term-title">workout_logger.py</span>
+      </div>
+      <div class="project-body">
+        <h3>Workout Logger</h3>
+        <p>
+          A command-line application for recording exercises, sets,
+          reps, and weight using functions, loops, lists, and
+          dictionaries. Includes workout viewing and summary logic,
+          with input validation across every menu path.
+        </p>
+        <ul class="tags">
+          <li>Python</li>
+          <li>CLI</li>
+          <li>Data validation</li>
+        </ul>
+      </div>
+    </article>
+  </section>
+
+  <section id="experience" class="section wrap-narrow">
+    <h2 class="section-num">Experience</h2>
+    <div class="job">
+      <div class="job-head">
+        <h3>Ramp Worker</h3>
+        <span class="job-meta">UPS Worldport &middot; Louisville, KY &middot; May 2024 &ndash; Present</span>
+      </div>
+      <ul>
+        <li>Support time-critical aircraft loading and package movement in one of UPS's highest-volume logistics environments, following strict safety procedures.</li>
+        <li>Coordinate with team members around aircraft, vehicles, and equipment to maintain accurate workflow under fixed operational deadlines.</li>
+        <li>Balance consistent full-time employment with computer-science coursework and independent technical projects.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section wrap-narrow contact-section">
+    <h2 class="section-num">Contact</h2>
+    <p>Open to cybersecurity and IT internship or entry-level opportunities.</p>
+    <ul class="contact-list">
+      <li><a href="mailto:tjroundtree05@gmail.com">tjroundtree05@gmail.com</a></li>
+      <li><a href="tel:15023032001">(502) 303-2001</a></li>
+      <li><a href="https://github.com/tjroundtree055" target="_blank" rel="noopener">github.com/tjroundtree055</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer wrap">
+  <span>Tyrone Roundtree Jr.</span>
+  <span>Speed School ACM &middot; Member since August 2026</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
